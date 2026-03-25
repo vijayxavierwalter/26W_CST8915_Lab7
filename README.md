@@ -13,7 +13,8 @@ Winter 2026.
 # RabbitMQ Configuration Analysis
 
 ## 1. Stateless or Stateful?
-RabbitMQ is a **stateful application** because it stores messages, queues, and broker data that must persist across restarts.
+RabbitMQ is a **stateful application** because it stores messages, queues, and broker data that must persist across restarts. 
+However, RabbitMQ is deployed without persistent storage in this lab, which can lead to data loss on restart.
 
 ---
 
